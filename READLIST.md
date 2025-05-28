@@ -1,0 +1,1 @@
+ - [Tic-Tac-Toe (4 part series)](https://nestedsoftware.com/2019/06/15/tic-tac-toe-with-the-minimax-algorithm-5988.123625.html)
