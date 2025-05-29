@@ -27,6 +27,7 @@ def any_n_sum_to_k(n, k, lst):
     Returns True if any n elements in lst sum to k.
     Recursive implementation similar to the Lisp version.
     """
+    print(n,k,lst)
     if n == 0:
         return k == 0
     if k < 0 or not lst:
@@ -146,7 +147,6 @@ def greedy_move(player, state):
     Returns the move that yields the highest valued next state.
     """
     moves = possible_moves(state)
-    print(f"Possible moves for {player}: {moves}")
     if not moves:
         return None
 
