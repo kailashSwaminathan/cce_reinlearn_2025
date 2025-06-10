@@ -23,3 +23,11 @@ n &\in \{ 0, 1, \dots, 20 \}
 \end{equation}
 $$
 ```
+The reward function is computed as
+```math
+\begin{equation}
+\begin{aligned}
+R(n) = \sum_{k=0}^{20} p_{req}(k) \cdot \min(n,k) \cdot 10
+\end{aligned}
+\end{equation}
+```
